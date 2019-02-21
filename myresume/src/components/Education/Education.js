@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 class Education extends Component {
   render() {
     return (
-      <div id="education" className="row justify-content-center education-container ">
-        <div className="col-10 text-center">
-          <span className="row justify-content-center education-title">
+      <div id="education" className="education-container">{/* className="row justify-content-center" */}
+        <div>{/* className="col-10 text-center" */}
+          <span className="education-title">{/* className="row justify-content-center" */}
             Education
           </span>
 
