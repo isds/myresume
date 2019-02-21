@@ -11,11 +11,11 @@ library.add(faGithub);
 class Footer extends Component {
   render() {
     return (
-      <div id="footer" className="row justify-content-center footer-container">
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+      <div id="footer" className="footer-container">
+        <div>
           <p>Copyright © 2019 Ítalo S. de Souza</p>
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+        <div>
           <a href="https://github.com/isds" ><p><FontAwesomeIcon icon={faGithub} /></p></a>
         </div>
       </div >

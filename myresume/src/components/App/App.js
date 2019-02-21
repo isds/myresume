@@ -14,7 +14,6 @@ import Contact from '../Contact/Contact'
 
 
 import './App.css';
-import SideDrawer from '../SideDrawer/SideDrawer';
 
 
 class App extends Component {
@@ -23,18 +22,11 @@ class App extends Component {
       <div>
         <Menu />
         <Header />
-        {/* <SideDrawer /> */}
-        {/* <Body /> */}
         <About />
-
         <Education />
-
         <Experience />
-
         <Skills />
-
         <Contact />
-
         <Footer />
       </div>
     );
