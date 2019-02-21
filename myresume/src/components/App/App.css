@@ -1,0 +1,5 @@
+body, html {
+  font-family: 'Roboto Slab', serif;
+  scroll-behavior: smooth;
+  /* position: relative; */
+}

@@ -1,0 +1,52 @@
+.experience-container {
+  background-color: #F5F7FF;
+  padding-bottom: 1rem;
+}
+
+.experience-card {
+  padding-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #fff;
+
+  line-height: 1rem;
+  border-radius: 0.1rem;
+  border-width: 1px;
+  box-shadow: 0px 0px 2px 1px #d1d1d1;
+}
+
+.experience-card-title {
+  font-size: 1em;
+  margin: 0.2em;
+}
+
+.experience-card-title span{
+  color: #808080;
+  float: right;
+}
+
+.experience-card-occupation {
+  font-size: 1rem;
+  color: grey;
+  margin: 1rem;
+}
+
+.experience-card-text {
+  font-size: 1rem;
+  margin: 0.2rem;
+}
+
+.experience-card-divisor {
+  margin: 1rem;
+}
+
+.experience-title {
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.experience-title::first-letter {
+  font-size: 2.5rem;
+  font-style: italic;
+}

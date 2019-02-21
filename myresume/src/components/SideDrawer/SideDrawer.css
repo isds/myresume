@@ -1,0 +1,10 @@
+.side-drawer {
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 2px 0px 5px rgb(0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  z-index: 1;
+}
