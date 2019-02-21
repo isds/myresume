@@ -13,7 +13,7 @@ class Skills extends Component {
     );
 
     return (
-      <div id="skills" className="skills-container ">
+      <div id="skills" className="skills-container">
         <div >
           <span className="skills-title">
             Skills

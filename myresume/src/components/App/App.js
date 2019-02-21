@@ -4,6 +4,14 @@ import Body from '../Body/Body';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import '../SideDrawer/SideDrawer';
+import Menu from '../Menu/Menu';
+
+import About from '../About/About';
+import Education from '../Education/Education';
+import Experience from '../Experience/Experience';
+import Skills from '../Skills/Skills';
+import Contact from '../Contact/Contact'
+
 
 import './App.css';
 import SideDrawer from '../SideDrawer/SideDrawer';
@@ -13,15 +21,21 @@ class App extends Component {
   render() {
     return (
       <div>
-        <header>
-          <Header />
-          {/* <SideDrawer /> */}
-        </header>
-        <Body />
+        <Menu />
+        <Header />
+        {/* <SideDrawer /> */}
+        {/* <Body /> */}
+        <About />
 
-        <footer>
-          <Footer />
-        </footer>
+        <Education />
+
+        <Experience />
+
+        <Skills />
+
+        <Contact />
+
+        <Footer />
       </div>
     );
   }
