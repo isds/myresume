@@ -12,17 +12,12 @@ import SideDrawer from '../SideDrawer/SideDrawer';
 class App extends Component {
   render() {
     return (
-      // <div className="container-fluid">
       <div>
-        {/* <header className="row"> */}
         <header>
           <Header />
-          {/* <SideDrawer /> */}
         </header>
-        {/* <div className="row justify-content-center"> */}
-        {/* <div> */}
-          <Body />
-        {/* </div> */}
+        <Body />
+
         <footer>
           <Footer />
         </footer>
