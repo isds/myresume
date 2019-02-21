@@ -18,25 +18,22 @@ class Contact extends Component {
 
   render() {
     return (
-      <div id="contact" className="row contact-container">
-
-        <form className="col-8">
-          <div className="row justify-content-center contact-title">
+      <div id="contact" className="contact-container">
+        <form>
+          <div className="contact-title">
             Contact
           </div>
-          <div className="form-group">
+          <div>
             <input
-              className="form-control form-control-sm"
               type="email"
               value={this.state.email}
               onChange={this.handleEmailChange}
               placeholder={"Your email"} />
             <textarea
-              className="form-control"
               placeholder="Your messsage"
               value={this.state.message}
               onChange={this.handleMessageChange} />
-            <button className="btn btn-outline-light">Send</button>
+            <button>Send</button>
           </div>
         </form>
       </div>

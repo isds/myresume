@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Skills.css';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 
 class Skills extends Component {
@@ -14,14 +14,14 @@ class Skills extends Component {
     );
 
     return (
-      <div id="skills" className="row justify-content-center skills-container ">
-        <div className="col-10 text-center">
-          <span className="row justify-content-center skills-title">
+      <div id="skills" className="skills-container ">
+        <div >
+          <span className="skills-title">
             Skills
           </span>
 
-          <div className="row justify-content-center">
-            <div className="col-8 col-sm-8 skills-card text-center">
+          <div>
+            <div className="skills-card">
               {skillItems}
             </div>
           </div>

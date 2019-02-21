@@ -6,16 +6,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 class Education extends Component {
   render() {
     return (
-      <div id="education" className="education-container">{/* className="row justify-content-center" */}
-        <div>{/* className="col-10 text-center" */}
-          <span className="education-title">{/* className="row justify-content-center" */}
+      <div id="education" className="education-container">
+        <div>
+          <span className="education-title">
             Education
           </span>
 
           <div className="job-card-divisor"></div>
 
-          <div className="row justify-content-center">
-            <div className="education-card col-6 text-left">
+          <div>
+            <div className="education-card">
               <strong>EEEP Paulo Petrola</strong>
               <p>Information Technology Technician</p>
             </div>
@@ -23,8 +23,8 @@ class Education extends Component {
 
           <div className="education-card-divisor"></div>
 
-          <div className="row justify-content-center">
-            <div className="education-card col-6 text-left">
+          <div>
+            <div className="education-card">
               <strong>Greate Fortaleza Metropolitan University</strong>
               <p>Analysis Systems Development</p>
             </div>

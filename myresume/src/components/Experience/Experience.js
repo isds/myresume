@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Experience.css';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 
 class ExperienceCard extends Component {
@@ -9,8 +9,8 @@ class ExperienceCard extends Component {
       (line, i) => <li key={i} className="experience-card-text">{line}</li>
     );
     return (
-      <div id="experience" className="row justify-content-start">
-        <div className="experience-card col text-left">
+      <div id="experience">
+        <div className="experience-card">
           <p className="experience-card-title">
             {this.props.title} <span>{this.props.date}</span>
           </p>
@@ -27,9 +27,9 @@ class ExperienceCard extends Component {
 class Experience extends Component {
   render() {
     return (
-      <div className="row justify-content-center experience-container">
-        <div className="col-10 text-center">
-          <div className="row justify-content-center experience-title">
+      <div className="experience-container">
+        <div >
+          <div className="experience-title">
             Experience
           </div>
 
