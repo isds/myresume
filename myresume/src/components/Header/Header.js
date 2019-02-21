@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import Menu from '../Menu/Menu';
+
 class Header extends Component {
   render() {
     return (

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Skills.css';
-// import 'bootstrap/dist/css/bootstrap.css';
 
 
 class Skills extends Component {
