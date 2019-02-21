@@ -5,11 +5,11 @@ class About extends Component {
   render() {
     return (
       <div id="about" className="about-container">
-        <div>
-          <span className="about-container-title">About Me</span>
+        <div className="about-container-title">
+          <span >About Me</span>
         </div>
 
-        <div>
+        <div className="about-container-text">
           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          I'm a passionate programmer, experienced with web development who wish to make
          a better world trhoug information. I have experience with: Django, Flask,
