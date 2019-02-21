@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div className="header-container">
           <Menu />
-          {/* <div className="col"> */}
+
           <div>
             <h1 className="full-name">ÍTALO SILVA</h1>
             <h2 className="occupation">Software Developer</h2>
