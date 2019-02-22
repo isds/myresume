@@ -12,11 +12,11 @@
   justify-content: center;
 }
 
-.education-title span{
+.education-title div{
   font-size: 3rem;
 }
 
-.education-title span::first-letter {
+.education-title div::first-letter {
   font-size: 4.5rem;
   font-style: italic;
 }

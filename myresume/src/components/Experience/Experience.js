@@ -40,9 +40,6 @@ const experienceData = [
 ];
 
 const ExperienceCard = (props) => {
-  console.log('TITLE', props.title);
-  console.log('text', props.text);
-
   const textLines = props.text.map(
     (line, i) => <li key={i} className="experience-card-text">{line}</li>
   );
@@ -52,7 +49,7 @@ const ExperienceCard = (props) => {
         <p className="experience-card-title">
           {props.title} <span>{props.date}</span>
         </p>
-        <p className="experience-card-occupation">{props.occupation} </p>
+        <p className="experience-card-occupation">{props.occupation}</p>
         <ul>
           {textLines}
         </ul>
@@ -61,24 +58,26 @@ const ExperienceCard = (props) => {
   );
 }
 
+const cards = experienceData.map(
+  (item, i) => (
+    <ExperienceCard
+      key={i}
+      title={item.title}
+      occupation={item.occupation}
+      date={item.date}
+      text={item.description} />
+  )
+);
 
 class Experience extends Component {
   render() {
-    const cards = experienceData.map(
-      (item, i) => (
-        <ExperienceCard
-          key={i}
-          title={item.title}
-          occupation={item.occupation}
-          date={item.date}
-          text={item.description} />
-      )
-    );
     return (
       <div className="experience-container">
         <div className="experience-title">
-          Experience
-          </div>
+          <span>
+            Experience
+          </span>
+        </div>
 
         {cards}
       </div>
