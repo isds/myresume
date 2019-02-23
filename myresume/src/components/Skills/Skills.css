@@ -9,6 +9,7 @@
 
 .skills-title {
   font-size: 3rem;
+  text-align: center;
 }
 
 .skills-title::first-letter {
