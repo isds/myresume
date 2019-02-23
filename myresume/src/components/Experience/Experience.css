@@ -8,15 +8,10 @@
 }
 
 .experience-title {
-  display: flex;
-  justify-content: center;
-  font-size: 3rem;
-}
-.experience-title span{
   font-size: 3rem;
 }
 
-.experience-title span::first-letter {
+.experience-title::first-letter {
   font-size: 4.5rem;
   font-style: italic;
 }

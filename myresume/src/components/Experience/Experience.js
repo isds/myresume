@@ -72,9 +72,7 @@ class Experience extends Component {
     return (
       <div id="experience" className="experience-container">
         <div className="experience-title">
-          <span>
-            Experience
-          </span>
+          Experience
         </div>
 
         {cards}
