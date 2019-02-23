@@ -7,16 +7,11 @@
   padding-bottom: 1rem;
 }
 
-.education-title {
-  display: flex;
-  justify-content: center;
-}
-
-.education-title span{
+.education-title{
   font-size: 3rem;
 }
 
-.education-title span::first-letter {
+.education-title::first-letter {
   font-size: 4.5rem;
   font-style: italic;
 }

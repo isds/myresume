@@ -18,9 +18,7 @@ class Education extends Component {
     return (
       <div id="education" className="education-container">
         <div className="education-title">
-          <span>
-            Education
-          </span>
+          Education
         </div>
 
         <EducationCard
