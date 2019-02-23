@@ -15,9 +15,7 @@ class Skills extends Component {
     return (
       <div id="skills" className="skills-container">
         <div className="skills-title">
-          <span >
             Skills
-          </span>
         </div>
         <div className="skills-card">
           {skillItems}

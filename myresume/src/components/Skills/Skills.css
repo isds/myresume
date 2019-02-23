@@ -8,15 +8,10 @@
 }
 
 .skills-title {
-  display: flex;
-  justify-content: center;
-}
-
-.skills-title span{
   font-size: 3rem;
 }
 
-.skills-title span::first-letter {
+.skills-title::first-letter {
   font-size: 4.5rem;
   font-style: italic;
 }
@@ -24,6 +19,7 @@
 .skills-card {
   width: 60%;
   margin: 1rem;
+  margin-top: 0;
   padding-top: 1rem;
   text-align: center;
 }
