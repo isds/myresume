@@ -1,15 +1,16 @@
 .footer-container {
+  display: flex;
+  justify-content: space-between;
+
   padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   background-color: #fff;
-  align-items: center;
 }
 
-.about-container-title::first-letter{
-  font-size: 3rem;
-}
 
-.footer-container div p{
-  font-size: 1rem;
+.footer-left, .footer-right-icon{
+  font-size: 1.5rem;
   text-decoration: none;
   color: #606060;
 }

@@ -12,11 +12,12 @@ class Footer extends Component {
   render() {
     return (
       <div id="footer" className="footer-container">
-        <div>
-          <p>Copyright © 2019 Ítalo S. de Souza</p>
+        <div className="footer-left">
+          Copyright © 2019 Ítalo S. de Souza
         </div>
-        <div>
-          <a href="https://github.com/isds" ><p><FontAwesomeIcon icon={faGithub} /></p></a>
+
+        <div className="footer-right" >
+          <a href="https://github.com/isds" ><FontAwesomeIcon className="footer-right-icon" icon={faGithub} /></a>
         </div>
       </div >
     );
