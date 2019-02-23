@@ -1,41 +1,75 @@
 .contact-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
 
   background-color: #4F0AE8;
-  text-align: center;
-
-  border-bottom: 1px solid #3478E8;
-
   padding-bottom: 1rem;
 }
 
 .contact-title {
-  font-size: 2rem;
-  display: inline-block;
+  font-size: 3rem;
   color: #ffffff;
+  text-align: center;
 }
 
 .contact-title::first-letter {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   font-style: italic;
 }
 
-
-.contact-container input{
-  font-size: 0.8em;
-  margin-bottom: 0.2rem;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
-.contact-container textarea{
-  font-size: 1rem;
-  margin-bottom: 0.2rem;
+.contact-form input{
+  font-size: 1.2em;
+  height: 10vh;
+  
+  color: #FFFFFF;
+  background-color: #113c83;
+  
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  
+  border-width: 0;
+  border-radius: 0.3rem;
 }
 
-.contact-container button{
+.contact-form input::placeholder{
+  color: #FFFFFF;
+}
+
+.contact-form textarea{
+  font-size: 1.2rem;
+  height: 10rem;
+  
+  color: #ffffff;
+  background-color: #113c83;
+
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  
+  border-width: 0;
+  border-radius: 0.3rem;
+}
+
+.contact-form textarea::placeholder{
+  color: #FFFFFF;
+}
+
+.contact-form button{
   width: 100%;
-  text-align: center;
-  justify-content: center;
+  height: 3rem;
   align-items: center;
+
+  color: #4F0AE8;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  border-width: 0;
+  border-radius: 0.3rem;
+  background-color: #ffffff;
 }

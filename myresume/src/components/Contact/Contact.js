@@ -15,30 +15,29 @@ class Contact extends Component {
     this.setState({ message: event.target.value })
   }
 
-  handleSendClick = () => {
+  handleSendClick = (event) => {
     console.log('SEND CLICKED: ', this.state.message)
   }
 
   render() {
     return (
       <div id="contact" className="contact-container">
-        <div >
-          <div className="contact-title">
-            Contact
-          </div>
-          <div>
-            <input
-              type="email"
-              value={this.state.email}
-              onChange={this.handleEmailChange}
-              placeholder={"Your email"} />
-            <textarea
-              placeholder="Your messsage"
-              value={this.state.message}
-              onChange={this.handleMessageChange} />
-            <button onClick={this.handleSendClick} >Send</button>
-          </div>
+        <div className="contact-title">
+          Contact
         </div>
+
+        <form className="contact-form" onSubmit={this.handleSendClick}>
+          <input
+            type="email"
+            value={this.state.email}
+            onChange={this.handleEmailChange}
+            placeholder={"Your email"} />
+          <textarea
+            placeholder="Your messsage"
+            value={this.state.message}
+            onChange={this.handleMessageChange} />
+          <button onClick={this.handleSendClick} >Send</button>
+        </form>
       </div>
     );
   }
