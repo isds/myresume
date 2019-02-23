@@ -19,10 +19,8 @@ class Skills extends Component {
             Skills
           </span>
         </div>
-        <div>
-          <div className="skills-card">
-            {skillItems}
-          </div>
+        <div className="skills-card">
+          {skillItems}
         </div>
       </div>
     );
