@@ -15,10 +15,14 @@ class Contact extends Component {
     this.setState({ message: event.target.value })
   }
 
+  handleSendClick = () => {
+    console.log('SEND CLICKED: ', this.state.message)
+  }
+
   render() {
     return (
       <div id="contact" className="contact-container">
-        <form>
+        <div >
           <div className="contact-title">
             Contact
           </div>
@@ -32,9 +36,9 @@ class Contact extends Component {
               placeholder="Your messsage"
               value={this.state.message}
               onChange={this.handleMessageChange} />
-            <button>Send</button>
+            <button onClick={this.handleSendClick} >Send</button>
           </div>
-        </form>
+        </div>
       </div>
     );
   }
