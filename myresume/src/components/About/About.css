@@ -7,15 +7,11 @@
 }
 
 .about-container-title{
-  display: flex;
-  justify-content: center;
-}
-
-.about-container-title span {
   font-size: 3rem;
+  text-align: center;
 }
 
-.about-container-title span::first-letter {
+.about-container-title::first-letter {
   font-size: 4.5rem;
   font-style: italic;
   font-weight: normal;
