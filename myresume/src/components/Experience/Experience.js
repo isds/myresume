@@ -44,16 +44,14 @@ const ExperienceCard = (props) => {
     (line, i) => <li key={i} className="experience-card-text">{line}</li>
   );
   return (
-    <div id="experience">
-      <div className="experience-card">
-        <p className="experience-card-title">
-          {props.title} <span>{props.date}</span>
-        </p>
-        <p className="experience-card-occupation">{props.occupation}</p>
-        <ul>
-          {textLines}
-        </ul>
-      </div>
+    <div className="experience-card">
+      <p className="experience-card-title">
+        {props.title} <span>{props.date}</span>
+      </p>
+      <p className="experience-card-occupation">{props.occupation}</p>
+      <ul>
+        {textLines}
+      </ul>
     </div>
   );
 }
@@ -72,7 +70,7 @@ const cards = experienceData.map(
 class Experience extends Component {
   render() {
     return (
-      <div className="experience-container">
+      <div id="experience" className="experience-container">
         <div className="experience-title">
           <span>
             Experience
