@@ -28,6 +28,10 @@
 
 .side-drawer li {
   margin: 0.5rem 0;
+  width: 70%;
+  border-bottom-color: #4F0AE8;
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
 }
 
 .side-drawer a {
