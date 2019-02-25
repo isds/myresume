@@ -5,14 +5,14 @@ const experienceData = [
   {
     title: 'CASEBRÁS Group',
     occupation: 'Trainee in the Information Technology sector',
-    date: 'July 2010 - November 2010',
+    date: 'Jul 2010 - Nov 2010',
     description: [
       'Remote and presencial maintenance of network assets and assistance to the end user about the correct use of the technological company assets.'
     ]
   },
   {
     title: 'Asyst International + Rhealeza It Services', occupation: 'Support Technician',
-    date: 'September 2011 - October 2014',
+    date: 'Sep 2011 - Oct 2014',
     description: [
       'Remote and presencial maintenance of network assets and assistance to the end user about the correct use of the technological company assets.',
       'Scripts development for automating technical solutions.'
@@ -21,7 +21,7 @@ const experienceData = [
   {
     title: 'B&Q Energia Ltda',
     occupation: 'IT Administrative Analyst',
-    date: 'November 2014 - November 2015',
+    date: 'Nov 2014 - Nov 2015',
     description: [
       'Development and maintenance of databases for the high-voltage customer sector of Enel(formerly Coelce).',
       'Automation of reports with VBA and Python.',
@@ -32,7 +32,7 @@ const experienceData = [
   {
     title: 'Simbiose Ventures Ltda',
     occupation: 'Software Developer',
-    date: 'November 2015 - April 2016',
+    date: 'Nov 2015 - Apr 2016',
     description: [
       "Analysis and development of systems using Python, JavaScript, PostgreSQL, MongoDB and AWS."
     ]

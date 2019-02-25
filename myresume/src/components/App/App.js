@@ -38,7 +38,7 @@ class App extends Component {
     return (
       <div>
         <Menu drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen}/>;
+        <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
         <Header />
         <About />

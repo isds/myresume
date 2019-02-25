@@ -32,3 +32,9 @@
   font-size: 1.2rem;
   background-color: #C7BBE8;
 }
+
+@media(max-width: 768px){
+  .skills-card{
+    width: 90%;
+  }
+}

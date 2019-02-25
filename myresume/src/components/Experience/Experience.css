@@ -33,7 +33,7 @@
 
 .experience-card-title {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 2rem;
 }
 
@@ -51,4 +51,15 @@
 .experience-card-text {
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+@media (max-width: 768px){
+  .experience-card {
+    width: 90%;
+  }
+  .experience-card-title span {
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
 }

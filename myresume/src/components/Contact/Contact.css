@@ -73,3 +73,9 @@
   border-radius: 0.3rem;
   background-color: #ffffff;
 }
+
+@media(max-width: 768px){
+  .contact-form{
+    width: 90%;
+  }
+}

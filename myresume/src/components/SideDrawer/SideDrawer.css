@@ -9,7 +9,7 @@
   max-width: 400px;
   z-index: 200;
 
-  transform: translateX(-100%);
+  transform: translateX(-102%); /* if is 100% the border shadow will appear. */
   transition: transform 0.3s ease-out;
 }
 
