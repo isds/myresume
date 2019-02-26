@@ -15,10 +15,6 @@ class Contact extends Component {
     this.setState({ message: event.target.value })
   }
 
-  handleSendClick = (event) => {
-    console.log('SEND CLICKED: ', this.state.message)
-  }
-
   render() {
     return (
       <div id="contact" className="contact-container">
@@ -26,17 +22,23 @@ class Contact extends Component {
           Contact
         </div>
 
-        <form className="contact-form" onSubmit={this.handleSendClick}>
+        <form 
+          className="contact-form" onSubmit={this.handleSendClick}
+          action="https://formspree.io/italosilvadesouza@gmail.com" method="POST"
+        >
           <input
+            name="email"
             type="email"
             value={this.state.email}
             onChange={this.handleEmailChange}
             placeholder={"Your email"} />
+
           <textarea
+            name="message"
             placeholder="Your messsage"
             value={this.state.message}
             onChange={this.handleMessageChange} />
-          <button onClick={this.handleSendClick} >Send</button>
+          <button type="submit">Send</button>
         </form>
       </div>
     );
