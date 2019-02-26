@@ -10,7 +10,7 @@ class Header extends Component {
           <h1 className="full-name">ÍTALO SILVA</h1>
           <h2 className="occupation">Software Developer</h2>
           <br />
-          <a href="#resume_path" className="btn-rounded-white">Download Resume</a>
+          <a href={'https://drive.google.com/open?id=1qjHUWX12u0vV3xiDYCOvxM_rBi5MV-UX'} className="btn-rounded-white" download>Download Resume</a>
         </div>
       </div>
     );

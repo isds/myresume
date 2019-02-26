@@ -15,6 +15,7 @@ const SideDrawer = (props) => {
         <li><a onClick={props.click} href="#education">Education</a></li>
         <li><a onClick={props.click} href="#experience">Experience</a></li>
         <li><a onClick={props.click} href="#skills">Skills</a></li>
+        <li><a onClick={props.click} href="#contact">Contact</a></li>
       </ul>
     </nav>
   )
