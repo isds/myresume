@@ -22,6 +22,7 @@ class Contact extends Component {
           Contact
         </div>
 
+        {/* Example on https://test.formspree.io/ */}
         <form 
           className="contact-form" onSubmit={this.handleSendClick}
           action="https://formspree.io/italosilvadesouza@gmail.com" method="POST"
