@@ -29,6 +29,10 @@ class App extends Component {
   backDropClickHandler = () => {
     this.setState({ sideDrawerOpen: false })
   };
+  
+  linkClickHandler = () => {
+    this.setState({ sideDrawerOpen: false })
+  };
 
   render() {
     let backdrop;
@@ -38,7 +42,7 @@ class App extends Component {
     return (
       <div>
         <Menu drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen}/>
+        <SideDrawer show={this.state.sideDrawerOpen} click={this.linkClickHandler}/>
         {backdrop}
         <Header />
         <About />

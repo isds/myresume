@@ -29,11 +29,12 @@
   border-radius: 0.2rem;
   border-width: 1px;
   box-shadow: 0px 0px 2px 1px #d1d1d1;
+
+  font-size: 1.2;
 }
 
 .experience-card-title {
   font-weight: bold;
-  font-size: 1.2rem;
   line-height: 2rem;
 }
 
@@ -44,12 +45,10 @@
 }
 
 .experience-card-occupation {
-  font-size: 1.2rem;
   color: grey;
 }
 
 .experience-card-text {
-  font-size: 1.2rem;
   line-height: 2rem;
 }
 
@@ -57,9 +56,13 @@
   .experience-card {
     width: 90%;
   }
+
+  .experience-card-occupation {
+    line-height: 1.5rem;
+  }
+
   .experience-card-title span {
     width: 100%;
-    font-size: 1rem;
     margin-bottom: 0.5rem;
   }
 }

@@ -4,17 +4,17 @@ import './SideDrawer.css';
 
 const SideDrawer = (props) => {
   let drawerClasses = 'side-drawer';
-  if(props.show) {
+  if (props.show) {
     drawerClasses = 'side-drawer open';
   }
   return (
     <nav className={drawerClasses}>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
+        <li><a onClick={props.click} href="#header">Home</a></li>
+        <li><a onClick={props.click} href="#about">About</a></li>
+        <li><a onClick={props.click} href="#education">Education</a></li>
+        <li><a onClick={props.click} href="#experience">Experience</a></li>
+        <li><a onClick={props.click} href="#skills">Skills</a></li>
       </ul>
     </nav>
   )

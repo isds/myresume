@@ -26,10 +26,13 @@
   width: 60%;
   font-size: 1.2rem;
   text-align: justify;
+  text-indent: 1rem;
 }
 
 @media(max-width: 768px) {
   .about-container-text p {
     width: 90%;
+    text-indent: 0;
+    text-align: left;
   }
 }
